@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VHLoading  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="VHLoading  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          VHLoading 1.0.0 Docs
+        </a>
+         (100% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/vidalhara/VHLoading">
+            <img class="header-icon" src="img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">VHLoading Reference</a>
+      <img class="carat" src="img/carat.png" />
+      VHLoading  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/VHDotsViewController.html">VHDotsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/VHLoading.html">VHLoading</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/VHLoading/Animation.html">– Animation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/VHLoading/Place.html">– Place</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/VHLoadingProtocol.html">VHLoadingProtocol</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            
+            <h1 id='vhloading' class='heading'>VHLoading</h1>
+
+<p><a href="https://img.shields.io/badge/Swift-4.0_5.1_5.2_5.3_5.4_5.5-Orange"><img src="https://img.shields.io/badge/Swift-4.0_5.1_5.2_5.3_5.4_5.5-blue" alt="Swift"></a>
+<a href="https://img.shields.io/badge/Platforms-iOS-Blue"><img src="https://img.shields.io/badge/Platforms-iOS-blue" alt="Platforms"></a>
+<a href="https://img.shields.io/cocoapods/v/VHLoading?color=pistachiogreen"><img src="https://img.shields.io/cocoapods/v/VHLoading?color=pistachiogreen" alt="CocoaPods Compatible"></a>
+<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg" alt="Carthage Compatible"></a>
+<a href="https://img.shields.io/badge/Swift_Package_Manager-compatible-pistachiogreen"><img src="https://img.shields.io/badge/Swift_Package_Manager-compatible-pistachiogreen" alt="Swift Package Manager"></a></p>
+
+<p>VHLoading is a simple loading animation library written in Swift. There is no limit for animations.
+<br>You can use <strong>your own designs</strong>. Limit is your imagination.</p>
+
+<ul>
+<li><a href="#features">Features</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#example">Example</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<h2 id='features' class='heading'>Features</h2>
+
+<ul>
+<li>[x] Infinite animation support</li>
+<li>[x] Show animation on UIView</li>
+<li>[x] Show animation on UIWindow</li>
+<li>[x] <a href="https://vidalhara.github.io/VHLoading/">Complete Documentation</a></li>
+</ul>
+<h2 id='requirements' class='heading'>Requirements</h2>
+
+<table><thead>
+<tr>
+<th>Platform</th>
+<th>Minimum Swift Version</th>
+<th>Installation</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>iOS 12.0+</td>
+<td>4.0</td>
+<td><a href="#cocoapods">CocoaPods</a>, <a href="#carthage">Carthage</a>, <a href="#swift-package-manager">Swift Package Manager</a></td>
+</tr>
+</tbody></table>
+<h2 id='installation' class='heading'>Installation</h2>
+<h3 id='cocoapods' class='heading'>CocoaPods</h3>
+
+<p><a href="https://cocoapods.org">CocoaPods</a> is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate VHLoading into your Xcode project using CocoaPods, specify it in your <code>Podfile</code>:</p>
+<pre class="highlight plaintext"><code>pod 'VHLoading', '~&gt; 1.0.0'
+</code></pre>
+<h3 id='carthage' class='heading'>Carthage</h3>
+
+<p><a href="https://github.com/Carthage/Carthage">Carthage</a> is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate VHLoading into your Xcode project using Carthage, specify it in your <code>Cartfile</code>:</p>
+<pre class="highlight plaintext"><code>github "vidalhara/VHLoading" ~&gt; 1.0
+</code></pre>
+<h3 id='swift-package-manager' class='heading'>Swift Package Manager</h3>
+
+<p>The <a href="https://swift.org/package-manager/">Swift Package Manager</a> is a tool for automating the distribution of Swift code and is integrated into the <code>swift</code> compiler. </p>
+
+<p>Once you have your Swift package set up, adding VHLoading as a dependency is as easy as adding it to the <code>dependencies</code> value of your <code>Package.swift</code>.</p>
+<pre class="highlight plaintext"><code>dependencies: [
+    .package(url: "https://github.com/vidalhara/VHLoading", .upToNextMajor(from: "1.0.0"))
+]
+</code></pre>
+<h2 id='example' class='heading'>Example</h2>
+
+<p>You can find the example usages of framework in the VHLoadingExample <a href="./VHLoadingExample/VHLoadingExample.xcodeproj">project</a>.</p>
+<h2 id='documentation' class='heading'>Documentation</h2>
+
+<p>To see the documentation <a href="./docs/index.html">click here</a>.</p>
+<h2 id='license' class='heading'>License</h2>
+
+<p>VHLoading is released under the MIT license. <a href="https://github.com/vidalhara/VHLoading/blob/master/LICENSE">See LICENSE</a> for details.</p>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>Copyright © 2016 Vidal HARA. VHLoading released under MIT License.</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

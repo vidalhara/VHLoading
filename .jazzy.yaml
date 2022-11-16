@@ -1,0 +1,9 @@
+module: VHLoading
+author: Vidal HARA
+author_url: https://github.com/vidalhara
+github_url: https://github.com/vidalhara/VHLoading
+copyright: Copyright © 2016 Vidal HARA. VHLoading released under MIT License.
+documentation: ../*.md
+output: Docs
+theme: fullwidth
+xcodebuild_arguments: [-project, VHLoadingExample/VHLoadingExample.xcodeproj, -scheme, VHLoading, -sdk, iphonesimulator]
