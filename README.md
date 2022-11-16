@@ -65,7 +65,7 @@ You can find the example usages of framework in the VHLoadingExample [project](.
 
 ## Documentation
 
-To see the documentation [click here](./docs/index.html).
+To see the documentation [click here](https://vidalhara.github.io/VHLoading/).
 
 ## License
 
